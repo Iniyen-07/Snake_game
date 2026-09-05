@@ -6,7 +6,7 @@ from scoreboard import scoreboard
 screen=Screen()
 screen.setup(width=800, height=800)
 screen.bgcolor("black")
-screen.title("Legendary nokia snake game")
+screen.title("Snake game")
 screen.tracer(0)
 position=[(0,0),(-20,0),(-40,0)]
 objects=[]
